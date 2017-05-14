@@ -1,0 +1,7 @@
+Archive: 8.0
+Version: 8.0
+Component: main
+Origin: Kerberos-rolling-III
+Label: Kerberos-rolling-III
+Architecture: source
+Description: Repository for kerberos, a system for penetration testing.

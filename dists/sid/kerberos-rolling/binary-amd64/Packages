@@ -1,0 +1,230 @@
+Package: kerberos-bootrepair
+Version: 1-1kerberos
+Architecture: amd64
+Maintainer: Kerberos <KerberosLinux@gmail.com>
+Installed-Size: 206
+Depends: libc6 (>= 2.2.5), libgcc1 (>= 1:3.0), libgl1-mesa-glx | libgl1, libqt5core5a (>= 5.7.0), libqt5gui5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), grub-pc, kerberos-viewer
+Priority: optional
+Section: admin
+Filename: pool/kerberos-rolling/k/kerberos-bootrepair/kerberos-bootrepair_1-1kerberos_amd64.deb
+Size: 53196
+SHA256: 27d470279e32d64e18d7a781e64f856f4d2750e6f5f70ec78791e18a36e1a7c6
+SHA1: a02d2f6b829bbb9c03b5532ee70e4bd31403f4d5
+MD5sum: 621031a312d941cc1144b1a67160abf9
+Description: Kerberos Linux Package by D4RkNiK0l4s/
+ MX-bootrepair helps with the repair of boot problems.
+
+Package: kerberos-bootrepair-dbgsym
+Source: kerberos-bootrepair
+Version: 1-1kerberos
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Kerberos <KerberosLinux@gmail.com>
+Installed-Size: 37
+Depends: kerberos-bootrepair (= 1-1kerberos)
+Priority: extra
+Section: debug
+Filename: pool/kerberos-rolling/k/kerberos-bootrepair/kerberos-bootrepair-dbgsym_1-1kerberos_amd64.deb
+Size: 6794
+SHA256: 95897bcbc05f4cb8a9eb33dc30557f34dad5694bd29fc2570ab2c365de409ab9
+SHA1: 96ba4f9ab344a8be2289a41f4cee0d3cd066ae12
+MD5sum: f0edca132164e9c0e08384de4d7e27fd
+Description: Debug symbols for kerberos-bootrepair
+Build-Ids: 1b21ab35a73c3bcb1e553e502336d36a6ecdf75e
+
+Package: kerberos-broadcom-manager
+Version: 1-1kerberos
+Architecture: amd64
+Maintainer: Kerberos <KerberosLinux@gmail.com>
+Installed-Size: 340
+Depends: libc6 (>= 2.2.5), libgcc1 (>= 1:3.0), libgl1-mesa-glx | libgl1, libqt5core5a (>= 5.7.0), libqt5gui5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), kerberos-viewer, rfkill
+Priority: optional
+Section: admin
+Filename: pool/kerberos-rolling/k/kerberos-broadcom-manager/kerberos-broadcom-manager_1-1kerberos_amd64.deb
+Size: 90138
+SHA256: 1647b33925c651fdef9732fc1ca70ecf82aa0847f3ba260bb21e7644d836f448
+SHA1: 5f565ac397c33b74243a9393be1ee752c6d51e63
+MD5sum: 04a6910a2ca12f248878345175e7df4c
+Description: Kerberos Linux Package by D4RkNiK0l4s/
+ KerberosBroadcom Manager is a program used for configuring and troubleshooting
+ Kerberos Kerberos network configuration for Broadcom network cards.
+
+Package: kerberos-broadcom-manager-dbgsym
+Source: kerberos-broadcom-manager
+Version: 1-1kerberos
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Kerberos <KerberosLinux@gmail.com>
+Installed-Size: 49
+Depends: kerberos-broadcom-manager (= 1-1kerberos)
+Priority: extra
+Section: debug
+Filename: pool/kerberos-rolling/k/kerberos-broadcom-manager/kerberos-broadcom-manager-dbgsym_1-1kerberos_amd64.deb
+Size: 9096
+SHA256: 77d421c94ebcc4c25a103ce9d7d478e011a0bf52aa36f9b95123252049c657a9
+SHA1: 14f096efbc5eaa0b0b20bf454741cac55eca2a63
+MD5sum: f6549c09eeef393c3751e22d50276388
+Description: Debug symbols for kerberos-broadcom-manager
+Build-Ids: a425d425d826a3061f94fc0951daa8d661ceca1a
+
+Package: kerberos-codecs
+Version: 1-1kerberos
+Architecture: amd64
+Maintainer: Kerberos <KerberosLinux@gmail.com>
+Installed-Size: 224
+Depends: libc6 (>= 2.2.5), libgcc1 (>= 1:3.0), libgl1-mesa-glx | libgl1, libqt5core5a (>= 5.7.0), libqt5gui5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), gksu, kerberos-viewer
+Homepage: http://www.blackhatsec.org/
+Priority: optional
+Section: system
+Filename: pool/kerberos-rolling/k/kerberos-codecs/kerberos-codecs_1-1kerberos_amd64.deb
+Size: 58358
+SHA256: 328bcb4258aab7461c948ab3c077a94a309e5024190304a92c2ae19a3831e73e
+SHA1: 531c57c2d674136c26f97cb8d50f410858d66299
+MD5sum: 3ce4fcfa26a83bf16c791ed3fb333b6b
+Description: Kerberos Linux Package by D4RkNiK0l4s/
+ The KerberosCodecs Installer provides an easy way to install certain codecs that can
+ not be included with MX, due to legal issues in some jurisdictions.  i.e
+ libdvdcss2 and w32codecs.  Please check to see if these are legal
+ in your jurisdiction.  For the most part, users would only need libdvdcss2 for
+ commercial DVD playback, most of the codecs in the other two packages are now
+ provided in open media players.
+
+Package: kerberos-codecs-dbgsym
+Source: kerberos-codecs
+Version: 1-1kerberos
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Kerberos <KerberosLinux@gmail.com>
+Installed-Size: 32
+Depends: kerberos-codecs (= 1-1kerberos)
+Homepage: http://www.blackhatsec.org/
+Priority: extra
+Section: debug
+Filename: pool/kerberos-rolling/k/kerberos-codecs/kerberos-codecs-dbgsym_1-1kerberos_amd64.deb
+Size: 5834
+SHA256: e3e44346152041dd9307a16d3b3818e83c94a4cbcd37cf830e81a91bb9ec486c
+SHA1: f6cac45b494668c10901916fe8222c71ffcdd9eb
+MD5sum: e19309e9fdd3ca78467e5d7c24deabe3
+Description: Debug symbols for kerberos-codecs
+Build-Ids: 2dfc0f7828fcc9b101fffbdd0b4e2e7a2ba17174
+
+Package: kerberos-desktop-common
+Source: kerberos-meta
+Version: 2017.1.5
+Architecture: all
+Maintainer: Raphaël Hertzog <hertzog@debian.org>
+Installed-Size: 8
+Depends: kerberos-root-login, kerberos-menu, kerberos-debtags, desktop-base, firefox-esr | firefox-esr:any | firefox-esr:armhf | firefox | www-browser | www-browser:any, dbus-user-session, xserver-xorg-legacy
+Homepage: http://www.kerberos.org
+Priority: optional
+Section: metapackages
+Filename: pool/kerberos-rolling/k/kerberos-meta/kerberos-desktop-common_2017.1.5_all.deb
+Size: 1854
+SHA256: 708c9e2cd0b81b3da033f2a359357f21118ea147de5870634632c475677049aa
+SHA1: 01e582b65ef2d84afc8fca8f5b245bc0e028a85c
+MD5sum: 6dbb03e9c2dd2d1b21d0202a191e05ff
+Description: Meta-package with dependencies common to all desktops provided by Kerberos
+ This metapackage depends on Kerberos packages that should be intalled on all
+ desktop installations of Kerberos Linux.
+ .
+ This metapackage is a dependency of all kerberos-desktop-* packages.
+
+Package: kerberos-desktop-gnome
+Source: kerberos-meta
+Version: 2017.1.5
+Architecture: all
+Maintainer: Raphaël Hertzog <hertzog@debian.org>
+Installed-Size: 8
+Depends: kerberos-desktop-common, gnome-core, gedit, gnome-brave-icon-theme, gnome-theme-kerberos, gnome-shell-extensions, gnome-shell-extension-proxyswitcher, gnome-shell-extension-dashtodock, gnome-shell-extension-easyscreencast, gnome-shell-extension-workspacestodock, gnome-tweak-tool, gnome-orca, file-roller
+Recommends: libcanberra-gtk3-module, libcanberra-gtk-module
+Conflicts: nautilus-open-terminal, xserver-xorg-input-synaptics
+Homepage: http://www.kerberos.org
+Priority: optional
+Section: metapackages
+Filename: pool/kerberos-rolling/k/kerberos-meta/kerberos-desktop-gnome_2017.1.5_all.deb
+Size: 1894
+SHA256: 47047bf28efa3e061c27f949edb61cae93e28b36cb252ac779aa695e428aaa64
+SHA1: 69c128f517456894dda0286228594c2f5faf9df6
+MD5sum: 019eaf96896fd5f7264c538168cf179a
+Description: GNOME based Kerberos desktop
+ This metapackage installs a minimalistic GNOME desktop on your Kerberos system.
+
+Package: kerberos-desktop-kde
+Source: kerberos-meta
+Version: 2017.1.5
+Architecture: all
+Maintainer: Raphaël Hertzog <hertzog@debian.org>
+Installed-Size: 8
+Depends: kerberos-desktop-common, kde-plasma-desktop, plasma-nm, sddm
+Homepage: http://www.kerberos.org
+Priority: optional
+Section: metapackages
+Filename: pool/kerberos-rolling/k/kerberos-meta/kerberos-desktop-kde_2017.1.5_all.deb
+Size: 1720
+SHA256: bd51a07e3b3d7406036487bca04cf90350252cb35c1b83f5a255f9df2708dc47
+SHA1: 0455a6c1c7387b5bb9c66e7963e97e9b7c51ffa5
+MD5sum: 17033043d0917d2ec9c313238df4f22d
+Description: KDE based Kerberos desktop
+ This metapackage installs a minimalistic KDE desktop on your Kerberos system.
+
+Package: kerberos-desktop-live
+Source: kerberos-meta
+Version: 2017.1.5
+Architecture: all
+Maintainer: Raphaël Hertzog <hertzog@debian.org>
+Installed-Size: 8
+Depends: locales-all, console-setup, cryptsetup, alsa-tools
+Homepage: http://www.kerberos.org
+Priority: optional
+Section: metapackages
+Filename: pool/kerberos-rolling/k/kerberos-meta/kerberos-desktop-live_2017.1.5_all.deb
+Size: 1842
+SHA256: a42626f68fc03d82416777506ef277787047926ad1d2adc6849a5cc3e622072a
+SHA1: 45eb0517e98b84793ed6c46729b26d161a5ea12f
+MD5sum: 46028f22906b2aed41e0c366d75d083b
+Description: Meta-package for Kerberos live images
+ This metapackage depends on generic packages that should be installed on an
+ official Kerberos live image.
+ .
+ They provide features that are not directly related to penetration testing but
+ that are intended to make the image more useful and usable for a wide set of
+ users.
+
+Package: kerberos-desktop-lxde
+Source: kerberos-meta
+Version: 2017.1.5
+Architecture: all
+Maintainer: Raphaël Hertzog <hertzog@debian.org>
+Installed-Size: 8
+Depends: kerberos-desktop-common, lxde
+Recommends: libcanberra-gtk3-module, libcanberra-gtk-module
+Homepage: http://www.kerberos.org
+Priority: optional
+Section: metapackages
+Filename: pool/kerberos-rolling/k/kerberos-meta/kerberos-desktop-lxde_2017.1.5_all.deb
+Size: 1740
+SHA256: 857aff5bac34f6c8c8f3d12ce2c2f408860d31f7cb7e8f54ecbafea4b9ad04dd
+SHA1: 7b9d7de5e2410613a68307e045768d323d6a6440
+MD5sum: 524bc82c4a45a6ca84fa46197132e7ea
+Description: LXDE based Kerberos desktop
+ This metapackage installs a minimalistic LXDE desktop on your Kerberos system.
+
+Package: kerberos-desktop-xfce
+Source: kerberos-meta
+Version: 2017.1.5
+Architecture: all
+Maintainer: Raphaël Hertzog <hertzog@debian.org>
+Installed-Size: 8
+Depends: kerberos-desktop-common, xfce4, xfce4-terminal, xfce4-power-manager-plugins, lightdm, network-manager-gnome
+Recommends: libcanberra-gtk3-module, libcanberra-gtk-module
+Homepage: http://www.kerberos.org
+Priority: optional
+Section: metapackages
+Filename: pool/kerberos-rolling/k/kerberos-meta/kerberos-desktop-xfce_2017.1.5_all.deb
+Size: 1784
+SHA256: 458e577aed759153d2b8330b9d66e0a9724cccf5b1226f47aa415f4d0f727dd3
+SHA1: e9314b471797f0ba7bac4f1c903ab9ff4bf32b11
+MD5sum: 40e4d98445185b36271f4485dd3c8bf9
+Description: Xfce based Kerberos desktop
+ This metapackage installs a minimalistic Xfce desktop on your Kerberos system.
+

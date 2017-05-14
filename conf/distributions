@@ -1,0 +1,9 @@
+Origin: Kerberos-rolling-III
+Label: Kerberos-rolling-III
+Suite: 8.0
+Codename: sid
+Version: 8.0
+Architectures: amd64 i386 armhf source
+Components: kerberos-rolling main non-free contrib
+Description: Repository for kerberos, a system for penetration testing.
+SignWith: yes

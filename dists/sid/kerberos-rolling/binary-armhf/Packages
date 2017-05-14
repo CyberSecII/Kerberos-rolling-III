@@ -1,0 +1,120 @@
+Package: kerberos-desktop-common
+Source: kerberos-meta
+Version: 2017.1.5
+Architecture: all
+Maintainer: Raphaël Hertzog <hertzog@debian.org>
+Installed-Size: 8
+Depends: kerberos-root-login, kerberos-menu, kerberos-debtags, desktop-base, firefox-esr | firefox-esr:any | firefox-esr:armhf | firefox | www-browser | www-browser:any, dbus-user-session, xserver-xorg-legacy
+Homepage: http://www.kerberos.org
+Priority: optional
+Section: metapackages
+Filename: pool/kerberos-rolling/k/kerberos-meta/kerberos-desktop-common_2017.1.5_all.deb
+Size: 1854
+SHA256: 708c9e2cd0b81b3da033f2a359357f21118ea147de5870634632c475677049aa
+SHA1: 01e582b65ef2d84afc8fca8f5b245bc0e028a85c
+MD5sum: 6dbb03e9c2dd2d1b21d0202a191e05ff
+Description: Meta-package with dependencies common to all desktops provided by Kerberos
+ This metapackage depends on Kerberos packages that should be intalled on all
+ desktop installations of Kerberos Linux.
+ .
+ This metapackage is a dependency of all kerberos-desktop-* packages.
+
+Package: kerberos-desktop-gnome
+Source: kerberos-meta
+Version: 2017.1.5
+Architecture: all
+Maintainer: Raphaël Hertzog <hertzog@debian.org>
+Installed-Size: 8
+Depends: kerberos-desktop-common, gnome-core, gedit, gnome-brave-icon-theme, gnome-theme-kerberos, gnome-shell-extensions, gnome-shell-extension-proxyswitcher, gnome-shell-extension-dashtodock, gnome-shell-extension-easyscreencast, gnome-shell-extension-workspacestodock, gnome-tweak-tool, gnome-orca, file-roller
+Recommends: libcanberra-gtk3-module, libcanberra-gtk-module
+Conflicts: nautilus-open-terminal, xserver-xorg-input-synaptics
+Homepage: http://www.kerberos.org
+Priority: optional
+Section: metapackages
+Filename: pool/kerberos-rolling/k/kerberos-meta/kerberos-desktop-gnome_2017.1.5_all.deb
+Size: 1894
+SHA256: 47047bf28efa3e061c27f949edb61cae93e28b36cb252ac779aa695e428aaa64
+SHA1: 69c128f517456894dda0286228594c2f5faf9df6
+MD5sum: 019eaf96896fd5f7264c538168cf179a
+Description: GNOME based Kerberos desktop
+ This metapackage installs a minimalistic GNOME desktop on your Kerberos system.
+
+Package: kerberos-desktop-kde
+Source: kerberos-meta
+Version: 2017.1.5
+Architecture: all
+Maintainer: Raphaël Hertzog <hertzog@debian.org>
+Installed-Size: 8
+Depends: kerberos-desktop-common, kde-plasma-desktop, plasma-nm, sddm
+Homepage: http://www.kerberos.org
+Priority: optional
+Section: metapackages
+Filename: pool/kerberos-rolling/k/kerberos-meta/kerberos-desktop-kde_2017.1.5_all.deb
+Size: 1720
+SHA256: bd51a07e3b3d7406036487bca04cf90350252cb35c1b83f5a255f9df2708dc47
+SHA1: 0455a6c1c7387b5bb9c66e7963e97e9b7c51ffa5
+MD5sum: 17033043d0917d2ec9c313238df4f22d
+Description: KDE based Kerberos desktop
+ This metapackage installs a minimalistic KDE desktop on your Kerberos system.
+
+Package: kerberos-desktop-live
+Source: kerberos-meta
+Version: 2017.1.5
+Architecture: all
+Maintainer: Raphaël Hertzog <hertzog@debian.org>
+Installed-Size: 8
+Depends: locales-all, console-setup, cryptsetup, alsa-tools
+Homepage: http://www.kerberos.org
+Priority: optional
+Section: metapackages
+Filename: pool/kerberos-rolling/k/kerberos-meta/kerberos-desktop-live_2017.1.5_all.deb
+Size: 1842
+SHA256: a42626f68fc03d82416777506ef277787047926ad1d2adc6849a5cc3e622072a
+SHA1: 45eb0517e98b84793ed6c46729b26d161a5ea12f
+MD5sum: 46028f22906b2aed41e0c366d75d083b
+Description: Meta-package for Kerberos live images
+ This metapackage depends on generic packages that should be installed on an
+ official Kerberos live image.
+ .
+ They provide features that are not directly related to penetration testing but
+ that are intended to make the image more useful and usable for a wide set of
+ users.
+
+Package: kerberos-desktop-lxde
+Source: kerberos-meta
+Version: 2017.1.5
+Architecture: all
+Maintainer: Raphaël Hertzog <hertzog@debian.org>
+Installed-Size: 8
+Depends: kerberos-desktop-common, lxde
+Recommends: libcanberra-gtk3-module, libcanberra-gtk-module
+Homepage: http://www.kerberos.org
+Priority: optional
+Section: metapackages
+Filename: pool/kerberos-rolling/k/kerberos-meta/kerberos-desktop-lxde_2017.1.5_all.deb
+Size: 1740
+SHA256: 857aff5bac34f6c8c8f3d12ce2c2f408860d31f7cb7e8f54ecbafea4b9ad04dd
+SHA1: 7b9d7de5e2410613a68307e045768d323d6a6440
+MD5sum: 524bc82c4a45a6ca84fa46197132e7ea
+Description: LXDE based Kerberos desktop
+ This metapackage installs a minimalistic LXDE desktop on your Kerberos system.
+
+Package: kerberos-desktop-xfce
+Source: kerberos-meta
+Version: 2017.1.5
+Architecture: all
+Maintainer: Raphaël Hertzog <hertzog@debian.org>
+Installed-Size: 8
+Depends: kerberos-desktop-common, xfce4, xfce4-terminal, xfce4-power-manager-plugins, lightdm, network-manager-gnome
+Recommends: libcanberra-gtk3-module, libcanberra-gtk-module
+Homepage: http://www.kerberos.org
+Priority: optional
+Section: metapackages
+Filename: pool/kerberos-rolling/k/kerberos-meta/kerberos-desktop-xfce_2017.1.5_all.deb
+Size: 1784
+SHA256: 458e577aed759153d2b8330b9d66e0a9724cccf5b1226f47aa415f4d0f727dd3
+SHA1: e9314b471797f0ba7bac4f1c903ab9ff4bf32b11
+MD5sum: 40e4d98445185b36271f4485dd3c8bf9
+Description: Xfce based Kerberos desktop
+ This metapackage installs a minimalistic Xfce desktop on your Kerberos system.
+

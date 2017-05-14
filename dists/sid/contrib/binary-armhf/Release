@@ -1,0 +1,7 @@
+Archive: 8.0
+Version: 8.0
+Component: contrib
+Origin: Kerberos-rolling-III
+Label: Kerberos-rolling-III
+Architecture: armhf
+Description: Repository for kerberos, a system for penetration testing.
